@@ -19,10 +19,10 @@ cd Bitcoin-wallet-cracker && pip3 install -r requirements.txt
 python3 bc.py
 ```
 
-# Proof of Concept
+# Proof of Concept/How it works
 Although this project can be used maliciously, it is simply an 
 exploration into the Bitcoin protocol and advanced encryption and 
-hashing techniques using Python.
+hashing techniques using Python. It generates valid Bitcoin addresses/private keys derived from BIP39 Mnemonic Words and compares to a database text file containing Bitcoin Wallet Addresses with Balances (file: data-base)
 
 
 
