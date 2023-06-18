@@ -125,13 +125,13 @@ def create_main_window(settings):
               [sg.Text('Number of mnemonic words', size=(30,1), font=('Ubuntu', 12)),
                sg.Spin(values=('12', '24'),size=(3,1), key='num'), sg.Text('', size=(17,1))],
               [sg.Text('This program has been running for... ', size=(30,1), font=('Ubuntu', 12)),
-               sg.Text('', size=(30,1), font=('Ubuntu', 12), key='_DATE_')],
+               sg.Text('', size=(30,1), font=('Ubuntu', 10), key='_DATE_')],
               [sg.Text('')],
-              [sg.Output(size=(87, 20), font=('Ubuntu', 12), key='out')],
+              [sg.Output(size=(127, 29), font=('Ubuntu', 12), key='out')],
               [sg.Button('Start/Stop',  font=('Ubuntu', 12))]]
 
     return sg.Window('Bitcoin wallet cracker',
-                     layout=layout,
+                     layout=layout,#size=(990, 850),
                      default_element_size=(9,1))
 
 
