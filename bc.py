@@ -123,8 +123,8 @@ def create_main_window(settings):
 
     menu_def = [['&Menu', ['&Settings', 'E&xit']]]
 
-    layout = [[sg.Menu(menu_def)],
-              [sg.Text('Number of mnemonic words', size=(30,1), font=('Ubuntu', 12)),
+  #  layout = [[sg.Menu(menu_def)],
+    layout = [[sg.Text('Number of mnemonic words', size=(30,1), font=('Ubuntu', 12)),
                sg.Spin(values=('12', '24'),size=(3,1), key='num'), sg.Text('', size=(17,1))],
               [sg.Text('This program has been running for... ', size=(30,1), font=('Ubuntu', 12)),
                sg.Text('', size=(30,1), font=('Ubuntu', 10), key='_DATE_')],
