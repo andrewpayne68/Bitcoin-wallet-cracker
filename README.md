@@ -3,10 +3,8 @@
 **Programmed in Python3 | PySimpleGUI**
 
 # Bitcoin wallet cracker
-```
-Automated Bitcoin BTC wallet generator. With 3/6/9/12/15/18/21 and 24 word mnemonic bruteforces wallet addresses.
+Code Generates valid Bitcoin addresses/private keys derived from BIP39 Mnemonic Words and compares to a database text file containing Bitcoin Wallet Addresses with Balances (file: data-base)
 
-```
 
 # Usage:
 ### Python3+
@@ -22,7 +20,7 @@ python3 bc.py
 # Proof of Concept/How it works
 Although this project can be used maliciously, it is simply an 
 exploration into the Bitcoin protocol and advanced encryption and 
-hashing techniques using Python. It generates valid Bitcoin addresses/private keys derived from BIP39 Mnemonic Words and compares to a database text file containing Bitcoin Wallet Addresses with Balances (file: data-base)
+hashing techniques using Python.
 
 
 
