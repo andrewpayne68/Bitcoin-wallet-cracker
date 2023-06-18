@@ -1,21 +1,12 @@
-![Imgur](bc.gif)
-
-https://imgur.com/SPLzBfY 
-
-
 ![Imgur Image](http://imgur.com/SPLzBfY.png)
 
-
 **Programmed in Python3 | PySimpleGUI**
-
-
 
 # Bitcoin wallet cracker
 ```
 Automated Bitcoin BTC wallet generator. With 3/6/9/12/15/18/21 and 24 word mnemonic bruteforces wallet addresses.
 
 ```
-
 
 # Usage:
 ### Python3+
