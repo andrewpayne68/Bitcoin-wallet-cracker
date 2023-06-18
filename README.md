@@ -3,7 +3,7 @@
 **Programmed in Python3 | PySimpleGUI**
 
 # Bitcoin wallet cracker
-Code Generates valid Bitcoin addresses/private keys derived from 12 or 24 BIP39 Mnemonic Words and compares to a database text file containing Bitcoin Wallet Addresses with Balances (file: data-base)
+Code Generates valid Bitcoin addresses/private keys derived from 12 or 24 BIP39 Mnemonic Words and compares to a database text file containing Bitcoin Wallet Addresses with Balances (file: data-base updated 05/2023 with Wallets holding > 1 BTC)
 
 
 # Usage:
