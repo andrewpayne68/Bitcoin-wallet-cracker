@@ -3,3 +3,5 @@ PySimpleGUI
 ecdsa
 
 base58
+
+python3-tk
