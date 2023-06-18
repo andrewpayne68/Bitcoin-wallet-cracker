@@ -25,26 +25,9 @@ def bip(num):
                 for word in range(int(num))]
             return ' '.join(sent)
 
-def passw(filename):
-    try:
-        with open(filename, 'r') as f:
-            words = f.read().split()
-            for word in words:
-                sent = [random.choice(words)
-                        for word in range(int(1))]
-                return ' '.join(sent)
-    except FileNotFoundError:
-        pass
-    except TypeError:
-        pass
 
-
-def hmac512(mnemonic):
-    d = mnemonic
-    return d
-    
-def master(hmacsha512):
-    return hashlib.sha256(hmacsha512.encode("utf-8")).hexdigest().upper()
+def master(mnemonic):
+        return hashlib.sha256(mnemonic.encode("utf-8")).hexdigest().upper()
 
 
 def pubkey(masterkey):
@@ -145,7 +128,6 @@ def create_main_window(settings):
                sg.Text('', size=(30,1), font=('Ubuntu', 12), key='_DATE_')],
               [sg.Text('')],
               [sg.Output(size=(87, 20), font=('Ubuntu', 12), key='out')],
-              #[sg.Text('Passwords file', size=(12,1), font=('Ubuntu', 12)),sg.In(size=(65, 1),key='-in-'), sg.FileBrowse()],
               [sg.Button('Start/Stop',  font=('Ubuntu', 12))]]
 
     return sg.Window('Bitcoin wallet cracker',
@@ -167,12 +149,9 @@ def main():
         elif event == 'Start/Stop':
             generator = not generator
         if generator:
-            #filename = values['-in-'].rstrip()
             num = values['num']
             mnemonic = bip(num)
-            #passphrase = passw(filename)
-            hmacsha512 = hmac512(mnemonic)
-            masterkey = master(hmacsha512)
+            masterkey = master(mnemonic)
             public_key = pubkey(masterkey)
             address = addr(public_key)
             WIF = wif(masterkey)
