@@ -1,45 +1,28 @@
 ![Imgur](bc.gif)
 
-**Programmed in Python | PySimpleGUI**
+https://imgur.com/SPLzBfY 
 
+**Programmed in Python3 | PySimpleGUI**
 
-[![forthebadge made-with-python](http://ForTheBadge.com/images/badges/made-with-python.svg)](https://www.python.org/)
-
-[![Open Source Love svg1](https://badges.frapsoft.com/os/v1/open-source.svg?v=103)](https://github.com/adrijano/Bitcoin-wallet-cracker/)
-
-[![Maintenance](https://img.shields.io/badge/Maintained%3F-yes-green.svg)](https://github.com/adrijano/Bitcoin-wallet-cracker/graphs/commit-activity)
 
 
 # Bitcoin wallet cracker
 ```
-Automated Bitcoin wallet generator. With mnemonic and passphrases bruteforces wallet addresses.
+Automated Bitcoin BTC wallet generator. With 3/6/9/12/15/18/21 and 24 word mnemonic bruteforces wallet addresses.
 
 ```
-# If you like it give it a star
-
-[![GitHub stars](https://img.shields.io/github/stars/adrijano/Bitcoin-wallet-cracker.svg?style=social&label=Star&maxAge=0)](https://github.com/adrijano/Bitcoin-wallet-cracker/)
-
-![Adrijan's github stats](https://github-readme-stats.vercel.app/api?username=adrijano&show_icons=true)
-
-
 
 
 # Usage:
 ### Python3+
 
 ```
-git clone https://github.com/adrijano/Bitcoin-wallet-cracker.git
+git clone https://github.com/andrewpayne68/Bitcoin-wallet-cracker.git
 
-cd Bitcoin-wallet-cracker && pip install -r requirements.txt
+cd Bitcoin-wallet-cracker && pip3 install -r requirements.txt
 
-python bc.py
+python3 bc.py
 
-```
-### Windows
-```
-cd dist
-start bc.exe
-```
 # Proof of Concept
 ```
 Although this project can be used maliciously, it is simply an 
@@ -49,7 +32,7 @@ hashing techniques using Python.
 
 
 
-**Address with balance is saved in txt file**
+**Address with balance is saved in win.txt file**
 ```
 address: 17wd8bTwMPYfbo6YwmTFU4xH4hDkd13ATZ
 private key: 0651863bf5d902262b17c4621ec340544ff016752543d99a92d7d22872d8a455
@@ -65,10 +48,6 @@ WIF private key: 5HzdUFvvYhiKw97xnZtv5eYWuHKQZ1GMWVChuzkxwuQvrzacPg5
 public key: 04040e4311b932c26f2172e112d1e37bca43428ea6951e3269513ecff6dda67dd
 8b39666ef34e1dfd82cfdc689d6099905ed9f291f4b4bdf921e81d1b657eee1e6
 ```
-
-
-
-[![ForTheBadge built-with-love](http://ForTheBadge.com/images/badges/built-with-love.svg)](https://github.com/adrijano/Bitcoin-wallet-cracker/)
 
 
 
