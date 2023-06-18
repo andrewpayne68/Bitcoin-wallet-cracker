@@ -64,7 +64,7 @@ def database(address):
             data.close()
             return 'Bingo'
         else:
-            i = 'No luck'
+            i = '0 BTC'
             return i
 
 
@@ -122,13 +122,13 @@ def create_main_window(settings):
     menu_def = [['&Menu', ['&Settings', 'E&xit']]]
 
     layout = [[sg.Menu(menu_def)],
-              [sg.Text('Number of mnemonic words', size=(30,1), font=('Comic sans ms', 10)),
+              [sg.Text('Number of mnemonic words', size=(30,1), font=('Ubuntu', 12)),
                sg.Spin(values=('3', '6', '9', '12', '15', '18', '21', '24'),size=(3,1), key='num'), sg.Text('', size=(17,1))],
-              [sg.Text('This program has been running for... ', size=(30,1), font=('Comic sans ms', 10)),
-               sg.Text('', size=(30,1), font=('Comic sans ms', 10), key='_DATE_')],
+              [sg.Text('This program has been running for... ', size=(30,1), font=('Ubuntu', 12)),
+               sg.Text('', size=(30,1), font=('Ubuntu', 12), key='_DATE_')],
               [sg.Text('')],
-              [sg.Output(size=(87, 20), font=('Comic sans ms', 8), key='out')],
-              [sg.Button('Start/Stop',  font=('Comic sans ms', 10))]]
+              [sg.Output(size=(87, 20), font=('Ubuntu', 12), key='out')],
+              [sg.Button('Start/Stop',  font=('Ubuntu', 12))]]
 
     return sg.Window('Bitcoin wallet cracker',
                      layout=layout,
@@ -156,11 +156,11 @@ def main():
             address = addr(public_key)
             WIF = wif(masterkey)
             data_base = database(address)
-            print('mnemonic:   '+str(mnemonic)+'\n'+
-                  'private key:                           '+str(masterkey)+'\n'+
-                  'address:                                 '+str(address)+'\n'+
-                  'wif:                                        '+str(WIF)+"\n"+
-                  'address with balance:           '+str(data_base)+'\n\n')
+            print('mnemonic:                     '+str(mnemonic)+'\n'+
+                  'Private Key:                   '+str(masterkey)+'\n'+
+                  'Address/Public Key:    '+str(address)+'\n'+
+                  'WIF/Master Key:          '+str(WIF)+"\n"+
+                  'BTC Balance:                '+str(data_base)+'\n\n')
             
         elif event == 'Settings':
             event, values = create_settings_window(settings).read(close=True)
@@ -174,4 +174,3 @@ def main():
     window.Close()
     
 main()
-
