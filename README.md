@@ -1,4 +1,5 @@
-![Imgur Image](http://i.imgur.com/MIXuqY0.png)
+![Imgur Image](http://i.imgur.com/zygj8iz.png)
+
 
 **Programmed in Python3 | PySimpleGUI**
 
