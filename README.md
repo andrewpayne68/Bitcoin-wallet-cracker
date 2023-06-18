@@ -12,7 +12,7 @@ Code Generates valid Bitcoin addresses/private keys derived from BIP39 Mnemonic 
 ```
 git clone https://github.com/andrewpayne68/Bitcoin-wallet-cracker.git
 
-cd Bitcoin-wallet-cracker && pip3 install -r requirements.txt
+cd Bitcoin-wallet-cracker && pip3 install -r requirements.txt && sudo apt install python3-tk -y
 
 python3 bc.py
 ```
