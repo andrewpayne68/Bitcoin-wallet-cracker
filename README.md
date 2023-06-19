@@ -28,9 +28,7 @@ python3 bc.py
 
 
 # Proof of Concept/How it works
-Although this project can be used maliciously, it is simply an 
-exploration into the Bitcoin protocol and advanced encryption and 
-hashing techniques using Python.
+Although this project can be used maliciously, it is simply an exploration into the Bitcoin protocol and advanced encryption and hashing techniques using Python.
 
 
 
