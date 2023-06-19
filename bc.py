@@ -158,11 +158,11 @@ def main():
             address = addr(public_key)
             WIF = wif(masterkey)
             data_base = database(address)
-            print('mnemonic:                     '+str(mnemonic)+'\n'+
-                  'Private Key:                   '+str(masterkey)+'\n'+
-                  'Address/Public Key:    '+str(address)+'\n'+
-                  'WIF/Master Key:          '+str(WIF)+"\n"+
-                  'BTC Balance:                '+str(data_base)+'\n\n')
+            print('mnemonic:               '+str(mnemonic)+'\n'+
+                  'Private Key:             '+str(masterkey)+'\n'+
+                  'P2PKH Address:     '+str(address)+'\n'+
+                  'WIF/Master Key:    '+str(WIF)+"\n"+
+                  'BTC Balance:          '+str(data_base)+'\n\n')
             
         elif event == 'Settings':
             event, values = create_settings_window(settings).read(close=True)
