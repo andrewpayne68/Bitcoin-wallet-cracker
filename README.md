@@ -2,14 +2,18 @@
 
 **Programmed in Python3 | PySimpleGUI**
 
+
 # Bitcoin wallet cracker
 Code Generates valid Bitcoin addresses/private keys derived from 12 or 24 BIP39 Mnemonic Words and compares to a database text file containing Bitcoin Wallet Addresses with Balances (file: data-base updated 05/2023 with Wallets holding > 1 BTC)
+
 
 # Problems running / Crash to Desktop
 If the PySimpleGUI window crashes to Desktop (CTD) when you start - then you need to enable legacy ssl as detailed here: https://github.com/andrewpayne68/openssl-fix
 
 
-# Installation and Execution:
+
+# Installation and Execution
+
 ### Python3+
 
 ```
@@ -21,6 +25,7 @@ cd Bitcoin-wallet-cracker && pip3 install -r requirements.txt && sudo apt instal
 ```
 python3 bc.py
 ```
+
 
 # Proof of Concept/How it works
 Although this project can be used maliciously, it is simply an 
