@@ -14,9 +14,11 @@ If the PySimpleGUI window crashes to Desktop (CTD) when you start - then you nee
 
 ```
 git clone https://github.com/andrewpayne68/Bitcoin-wallet-cracker.git
-
+```
+```
 cd Bitcoin-wallet-cracker && pip3 install -r requirements.txt && sudo apt install python3-tk -y
-
+```
+```
 python3 bc.py
 ```
 
