@@ -1,7 +1,6 @@
-![Imgur Image](http://i.imgur.com/rInHXVU.png)
-
 **Programmed in Python3 | PySimpleGUI**
 
+![Imgur Image](http://i.imgur.com/rInHXVU.png)
 
 # Bitcoin wallet cracker
 Code Generates valid Bitcoin addresses/private keys derived from 12 or 24 BIP39 Mnemonic Words and compares to a database text file containing Bitcoin Wallet Addresses with Balances (file: data-base updated 05/2023 with Wallets holding > 1 BTC)
