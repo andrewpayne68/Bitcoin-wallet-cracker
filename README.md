@@ -9,7 +9,7 @@ Code Generates valid Bitcoin addresses/private keys derived from 12 or 24 BIP39 
 If the PySimpleGUI window crashes to Desktop (CTD) when you start - then you need to enable legacy ssl as detailed here: https://github.com/andrewpayne68/openssl-fix
 
 
-# Usage:
+# Installation and Execution:
 ### Python3+
 
 ```
